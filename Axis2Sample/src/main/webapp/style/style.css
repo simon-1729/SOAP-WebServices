@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {	
+	padding: 15px 50px;
+}
+.clearFix:after {    
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+#header {
+ /*border: 1px solid red;*/
+  width: 1200px;  
+  margin: 20px auto;
+}
+#main {
+  width: 1200px;
+  height: 460px;
+  border: 1px solid black;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+#uiFrame {
+  /*border: 1px solid green;*/
+  float: left;
+  height: 450px;
+}
+#usrInterface {
+   border: 2px solid grey;
+   margin-top: 70px;
+   padding: 10px;
+   width: 240px;
+   height: 220px;
+}
+h1 {
+  color: green;
+  padding-left: 250px; 
+}
+form {
+  padding: 10px;
+ 
+}
+label {
+	font: Verdana, sans-serif;
+	color: grey;
+}
+input {
+	width: 40px;
+	padding: 2px;
+	margin-left: 5px;	
+	background-color: #dddddd;
+	color: brown;	
+}
+td {
+  padding: 10px;
+}
+.output {
+	font: Verdana, sans-serif;
+	color: brown;
+}
+.resultColor{
+	font: Verdana, sans-serif;
+	color: green;
+	text-weight: bold;
+	font-size: 18px;
+}
+#info {
+	background: url(/resources/images/info.png) no-repeat 0px 0px;
+	height: 160px;
+	width: 240px;
+	/*border: 1px solid blue;*/
+}
+
+#messageFrame {
+	background: url(/resources/images/SOAPpic.png) no-repeat 0px 0px;
+	float: left;
+    height: 450px;
+    width: 850px;
+   /* border: 1px solid brown;*/
+}
+#wsdlLink {
+	width: 150px;
+	color: red;
+	position: relative;
+	top: 290px;
+	right: -610px;
+	
+	
+}
+#wsdlLink a:link {	
+	text-decoration: none;
+	text-weight: bold;
+	color: blue;	
+}
+#wsdlLink a:visited {
+	color: blue;
+}
+
+#wsdlLink a:hover {
+	color: green;
+}
+
+#ajaxLink {
+	width: 250px;
+	color: red;
+	position: relative;
+	top: 270px;
+	right: -210px;	
+}
+#ajaxLink a:link {	
+	text-decoration: none;
+	text-weight: bold;
+	color: blue;	
+}
+#ajaxLink a:visited {
+	color: blue;
+}
+
+#ajaxLink a:hover {
+	color: green;
+}
