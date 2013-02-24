@@ -1,7 +1,7 @@
 SOAP-WebServices
 ================
 
-Using Spring MVC and Apache Axis. This application is to demonstrates the use of a SOAP based approach to web services.
+Using Spring MVC and Apache Axis. This application demonstrates the use of a SOAP based approach to web services.
 
 A user enters two numbers in the hopes that their the sum will be returned. The numbers are relayed to an application 
 server using ajax. Lets, pretended that the application residing on the web server doesn't know how to add. However, it 
