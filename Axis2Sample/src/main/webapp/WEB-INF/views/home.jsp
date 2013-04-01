@@ -2,8 +2,8 @@
 <%@ page session="false" %>
 <html>
 <head>
-  <script src="/resources/scripts/script.js"></script>
-  <link rel="stylesheet" href="/resources/style/style.css">
+  <script src="resources/scripts/script.js"></script>
+  <link rel="stylesheet" href="resources/style/style.css">
   <title>Axis2 (SOAP-ws)</title>
   </head>
 <body> 
